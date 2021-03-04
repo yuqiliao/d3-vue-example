@@ -2,6 +2,7 @@
   <div>
     <h1>Circle Pack in D3</h1>
     <h2>{{ msg }}</h2>
+    <h4>random texts</h4>
     <svg
       :height='height'
       :width='width'
@@ -29,7 +30,7 @@ export default {
   props: ["tweetData"],
   data() {
     return {
-      msg: "👋 from the Chart Component",
+      msg: "👋 from the Chart Component 👋 ",
       height: 600,
       width: 600
     };

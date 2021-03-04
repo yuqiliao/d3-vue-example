@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App" />
     <PackChart :tweetData=loadData />
   </div>
 </template>
@@ -9,13 +9,13 @@
 <script>
 import * as d3 from "d3";
 
-// import HelloWorld from "./components/HelloWorld.vue";
+import HelloWorld from "./components/HelloWorld.vue";
 import PackChart from "./components/Chart.vue";
 
 export default {
   name: "app",
   components: {
-    // HelloWorld,
+    HelloWorld,
     PackChart
   },
   data: function() {
